@@ -1,5 +1,5 @@
 
-package com.jfixby.strings.api.io.string;
+package com.jfixby.text.loaders.strings;
 
 import java.io.IOException;
 
@@ -10,6 +10,8 @@ import com.jfixby.scarabei.api.err.Err;
 import com.jfixby.scarabei.api.file.File;
 import com.jfixby.scarabei.api.file.FileHash;
 import com.jfixby.scarabei.api.json.Json;
+import com.jfixby.strings.api.io.string.StringPackageEntry;
+import com.jfixby.strings.api.io.string.StringsPackage;
 
 public class StringFileEntry {
 

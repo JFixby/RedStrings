@@ -1,5 +1,5 @@
 
-package com.jfixby.strings.api.io.text;
+package com.jfixby.text.loaders.text;
 
 import java.io.IOException;
 
@@ -11,6 +11,8 @@ import com.jfixby.scarabei.api.err.Err;
 import com.jfixby.scarabei.api.file.File;
 import com.jfixby.scarabei.api.file.FileHash;
 import com.jfixby.scarabei.api.json.Json;
+import com.jfixby.strings.api.io.text.TextPackage;
+import com.jfixby.strings.api.io.text.TextPackageEntry;
 
 public class TextFileEntry implements AssetsConsumer {
 

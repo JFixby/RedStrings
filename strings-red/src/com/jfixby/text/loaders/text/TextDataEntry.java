@@ -1,5 +1,5 @@
 
-package com.jfixby.strings.api.io.text;
+package com.jfixby.text.loaders.text;
 
 import java.io.IOException;
 
@@ -18,6 +18,8 @@ import com.jfixby.strings.api.StringData;
 import com.jfixby.strings.api.Text;
 import com.jfixby.strings.api.TextTranslation;
 import com.jfixby.strings.api.TextTranslationsList;
+import com.jfixby.strings.api.io.text.TextLocalization;
+import com.jfixby.strings.api.io.text.TextPackageEntry;
 
 public class TextDataEntry implements Text, TextTranslationsList, AssetsConsumer, AssetsGroup, Asset {
 

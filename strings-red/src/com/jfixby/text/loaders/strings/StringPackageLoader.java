@@ -1,5 +1,5 @@
 
-package com.jfixby.strings.api.io.text;
+package com.jfixby.text.loaders.strings;
 
 import java.io.IOException;
 
@@ -12,13 +12,17 @@ import com.jfixby.scarabei.api.collections.Collections;
 import com.jfixby.scarabei.api.collections.List;
 import com.jfixby.scarabei.api.file.File;
 
-public class TextPackageLoader implements PackageReader {
-	public static final String Text = "RedTriplane.Text";
+public class StringPackageLoader implements PackageReader {
+
+	public static final String String = "RedTriplane.String";
+
+	final List<StringFileEntry> files = Collections.newList();
+
 	final List<PackageFormat> acceptablePackageFormats;
 
-	public TextPackageLoader () {
+	public StringPackageLoader () {
 		this.acceptablePackageFormats = Collections.newList();
-		final PackageFormat format = new PackageFormat(Text);
+		final PackageFormat format = new PackageFormat(String);
 		this.acceptablePackageFormats.add(format);
 	}
 
@@ -29,14 +33,12 @@ public class TextPackageLoader implements PackageReader {
 
 	@Override
 	public void doReadPackage (final PackageReaderInput input) throws IOException {
-
 // final PackageHandler handler = input.getPackageHandler();
-// final PackageReaderListener listener = input.getPackageReaderListener();
 // listener.onDependenciesRequired(handler, handler.listDependencies());
 		final File root = input.packageRootFile;
 		final AssetsContainer container = input.assetsContainer;
 
-		final TextFileEntry entry = new TextFileEntry(root);
+		final StringFileEntry entry = new StringFileEntry(root);
 		entry.load(container);
 	}
 

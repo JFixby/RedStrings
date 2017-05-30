@@ -1,10 +1,11 @@
 
-package com.jfixby.strings.api.io.string;
+package com.jfixby.text.loaders.strings;
 
 import com.jfixby.rana.api.asset.Asset;
 import com.jfixby.rana.api.asset.AssetsGroup;
 import com.jfixby.scarabei.api.assets.ID;
 import com.jfixby.strings.api.StringData;
+import com.jfixby.strings.api.io.string.StringPackageEntry;
 
 public class StringDataEntry implements StringData, AssetsGroup, Asset {
 

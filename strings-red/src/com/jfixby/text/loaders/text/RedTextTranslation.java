@@ -1,5 +1,5 @@
 
-package com.jfixby.strings.api.io.text;
+package com.jfixby.text.loaders.text;
 
 import com.jfixby.strings.api.StringData;
 import com.jfixby.strings.api.TextTranslation;
