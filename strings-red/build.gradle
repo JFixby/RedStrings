@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     compile project(":strings-api")
-    compile "com.github.JFixby.Rana:rana-manager-red:$ranaVersion"
+    compile "com.github.RedTriplane.Rana:rana-manager-red:$ranaVersion"
   
 }
 
