@@ -14,7 +14,7 @@ dependencies {
     compile project(":strings-api")
     compile "com.github.RedTriplane.Rana:rana-asset-api:$ranaVersion"
     compile "com.github.RedTriplane.Rana:rana-loader-api:$ranaVersion"
-     compile "com.github.RedTriplane.Rana:rana-manager-api:$ranaVersion"
+    compile "com.github.RedTriplane.Rana:rana-manager-api:$ranaVersion"
   
 }
 
