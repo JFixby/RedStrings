@@ -12,7 +12,7 @@ buildscript {
 
 ext {
         scarabeiVersion = "1.5.1"
-        slicerAPI = "1.2" 
+        slicerAPI = "1.4" 
 }
 
 allprojects {
