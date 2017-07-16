@@ -1,0 +1,3 @@
+dependencies {
+	compile "com.github.RedTriplane.TextureSlicer:texture-slicer-api:$slicerAPI"
+}

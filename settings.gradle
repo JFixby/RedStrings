@@ -1,5 +1,2 @@
-include "strings-api"
-include "strings-red"
-
-
-
+include 'texture-slicer-red'
+include 'texture-slicer-test'
