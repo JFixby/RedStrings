@@ -4,6 +4,7 @@ package com.jfixby.texture.slicer.red;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
+import com.jfixby.r3.io.texture.slicer.SlicesCompositionInfo;
 import com.jfixby.scarabei.api.assets.ID;
 import com.jfixby.scarabei.api.assets.Names;
 import com.jfixby.scarabei.api.color.Color;
@@ -22,7 +23,6 @@ import com.jfixby.scarabei.api.sys.Sys;
 import com.jfixby.texture.slicer.api.TextureSlicerComponent;
 import com.jfixby.texture.slicer.api.TextureSlicerSpecs;
 import com.jfixby.texture.slicer.api.TextureSlicingResult;
-import com.jfixby.texture.slicer.api.io.SlicesCompositionInfo;
 
 public class RedTextureSlicer implements TextureSlicerComponent {
 
