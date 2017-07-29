@@ -9,5 +9,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-red-desktop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-red"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-io"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
