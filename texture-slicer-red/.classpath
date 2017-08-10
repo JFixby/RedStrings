@@ -7,6 +7,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-api-desktop"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-io"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/r3-texture-slicer-io"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
